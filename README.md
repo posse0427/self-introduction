@@ -10,12 +10,13 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## インストールしたもの
 
-npm i react-transition-group
-npm install --save @types/react-transition-group
-npm install --save @types/react-router-dom
-npm install --save react-router-dom
-npm install --save react react-dom
-npm install --save-dev @types/react @types/react-dom
-npm install --save @material-ui/core @material-ui/styles styled-components
-npm install --save-dev @types/styled-components
-npm install axios --save
+npm i react-transition-group<br/>
+npm install --save @types/react-transition-group<br/>
+npm install --save @types/react-router-dom<br/>
+npm install --save react-router-dom<br/>
+npm install --save react react-dom<br/>
+npm install --save-dev @types/react @types/react-dom<br/>
+npm install --save @material-ui/core @material-ui/styles styled-components<br/>
+npm install --save-dev @types/styled-components<br/>
+npm install axios --save<br/>
+npm install --save react-twitter-widgets<br/>
