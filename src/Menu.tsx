@@ -6,6 +6,7 @@ import top from "./components/top";
 import about from "./components/about";
 import skills from "./components/skills";
 import works from "./components/works";
+import others from "./components/others";
 
 type Props = {
   children: any;
@@ -37,6 +38,9 @@ const MenuBar: React.FC<Props> = ({ children }) => (
       <li>
         <Link to="/skills">skills</Link>
       </li>
+      <li>
+        <Link to="/others">others</Link>
+      </li>
     </ul>
     {children}
   </div>
@@ -55,6 +59,7 @@ const Menu: React.FC<Prop> = ({ location }) => {
               <Route path="/about" exact component={about} />
               <Route path="/works" exact component={works} />
               <Route path="/skills" exact component={skills} />
+              <Route path="/others" exact component={others} />
               <Route exact component={notFound} />
             </Switch>
           </div>
