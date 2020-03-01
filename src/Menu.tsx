@@ -13,7 +13,7 @@ import { AppBar, Toolbar, Button, Grid } from "@material-ui/core";
 
 // Material-UI をカッコで囲んで、styled の引数にしてやる
 const StyledButton = styled(Button)`
-  background: linear-gradient(45deg, #fe6b8b 30%, #ff8e53 90%);
+  background: linear-gradient(45deg, #303f9f 30%, #03a9f4 90%);
   border-radius: 3px;
   border: 0;
   color: white;
