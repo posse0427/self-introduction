@@ -3,10 +3,10 @@ import { createMuiTheme } from "@material-ui/core";
 const theme = createMuiTheme({
   palette: {
     primary: {
-      // 緑色
-      main: "#8BC34A",
-      dark: "#689F38",
-      light: "#DCEDC8"
+      // 青色
+      main: "#2196F3",
+      dark: "#1976D2",
+      light: "#BBDEFB"
     },
     secondary: {
       // オレンジ
