@@ -1,11 +1,12 @@
 import React from "react";
-import { makeStyles } from "@material-ui/core/styles";
 import {
   Card,
   CardActions,
   Button,
   CardContent,
-  Typography
+  Typography,
+  makeStyles,
+  Grid
 } from "@material-ui/core";
 
 const useStyles = makeStyles({
@@ -27,7 +28,18 @@ export default function SimpleCard() {
 
   return (
     <div>
-      <h1>{title}</h1>
+      <Grid
+        container
+        spacing={0}
+        direction="column"
+        alignItems="center"
+        justify="center"
+        style={{ marginTop: "15vh" }}
+      >
+        <Grid item xs={8}>
+          <h1>{title}</h1>
+        </Grid>
+      </Grid>{" "}
       {description}
       <Card className={classes.root}>
         <CardContent>
