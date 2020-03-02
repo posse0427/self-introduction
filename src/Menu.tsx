@@ -8,8 +8,15 @@ import skills from "./components/skills";
 import works from "./components/works";
 import others from "./components/others";
 import styled from "styled-components";
-import { createStyles, makeStyles, Theme } from "@material-ui/core/styles";
-import { AppBar, Toolbar, Button, Grid } from "@material-ui/core";
+import {
+  AppBar,
+  Toolbar,
+  Button,
+  Grid,
+  createStyles,
+  makeStyles,
+  Theme
+} from "@material-ui/core";
 
 // Material-UI をカッコで囲んで、styled の引数にしてやる
 const StyledButton = styled(Button)`
@@ -92,7 +99,7 @@ const Menu: React.FC<Prop> = ({ location }) => {
       <Grid container alignItems="center" justify="center">
         <TransitionGroup>
           <CSSTransition key={currentkey} classNames="fade" timeout={800}>
-            <div style={{ marginLeft: "50px", position: "absolute" }}>
+            <div>
               <Switch location={location}>
                 <Route path="/" exact component={top} />
                 <Route path="/about" exact component={about} />
