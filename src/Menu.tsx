@@ -64,7 +64,7 @@ const MenuBar: React.FC<Props> = ({ children }) => {
   return (
     <div>
       <div className={classes.root}>
-        <AppBar position="static">
+        <AppBar position="fixed">
           <Toolbar>
             <Grid container alignItems="center" justify="center">
               <Link to="/">

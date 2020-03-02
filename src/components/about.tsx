@@ -1,10 +1,11 @@
 import React from "react";
-import { makeStyles } from "@material-ui/core/styles";
 import {
+  makeStyles,
   Card,
   CardActionArea,
   CardContent,
-  CardMedia
+  CardMedia,
+  Grid
 } from "@material-ui/core";
 
 const useStyles = makeStyles({
@@ -22,13 +23,24 @@ export default function MediaCard() {
 
   return (
     <div>
-      <h1>{title}</h1>
+      <Grid
+        container
+        spacing={0}
+        direction="column"
+        alignItems="center"
+        justify="center"
+        style={{ marginTop: "15vh" }}
+      >
+        <Grid item xs={8}>
+          <h1>{title}</h1>
+        </Grid>
+      </Grid>
       <Card className={classes.root}>
         <CardActionArea>
           <CardContent>
             <CardMedia
               className={classes.media}
-              image="/src/自己紹介.jpeg"
+              image="/static/images/cards/myPicture.jpeg"
               title="Contemplative Reptile"
             />
           </CardContent>
