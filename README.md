@@ -2,7 +2,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## :house: Development environment
 
-- Reacr
+- React
 - TypeScript
 - Material-UI
 - styled-components
