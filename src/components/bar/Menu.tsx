@@ -1,12 +1,12 @@
 import React from "react";
 import { Link, Route, Switch, withRouter } from "react-router-dom";
 import { TransitionGroup, CSSTransition } from "react-transition-group";
-import "./Animation.css";
-import top from "./components/top";
-import about from "./components/about";
-import skills from "./components/skills";
-import works from "./components/works";
-import others from "./components/others";
+import "../../Animation.css";
+import top from "../top/top";
+import about from "../about/about";
+import skills from "../skill/skills";
+import works from "../work/works";
+import others from "../other/others";
 import styled from "styled-components";
 import {
   AppBar,
@@ -18,15 +18,10 @@ import {
   Theme
 } from "@material-ui/core";
 
-// Material-UI をカッコで囲んで、styled の引数にしてやる
 const StyledButton = styled(Button)`
-  background: linear-gradient(45deg, #303f9f 30%, #03a9f4 90%);
-  border-radius: 3px;
-  border: 0;
   color: white;
-  height: 48px;
-  padding: 0 30px;
-  box-shadow: 0 3px 5px 2px rgba(255, 105, 135, 0.3);
+  height: 60px;
+  outline: none;
 `;
 
 type Props = {
@@ -64,24 +59,39 @@ const MenuBar: React.FC<Props> = ({ children }) => {
   return (
     <div>
       <div className={classes.root}>
-        <AppBar position="fixed">
+        <AppBar position="static">
           <Toolbar>
-            <Grid container alignItems="center" justify="center">
-              <Link to="/">
-                <StyledButton>top</StyledButton>
-              </Link>
-              <Link to="/about">
-                <StyledButton>about</StyledButton>
-              </Link>
-              <Link to="/works">
-                <StyledButton>works</StyledButton>
-              </Link>
-              <Link to="/skills">
-                <StyledButton>skills</StyledButton>
-              </Link>
-              <Link to="/others">
-                <StyledButton>others</StyledButton>
-              </Link>
+            <Grid
+              container
+              direction="row"
+              justify="center"
+              alignItems="center"
+            >
+              <Grid item xs={12} md={1}>
+                <Link to="/" style={{ textDecoration: "none" }}>
+                  <StyledButton>top</StyledButton>
+                </Link>
+              </Grid>
+              <Grid item xs={12} md={1}>
+                <Link to="/about" style={{ textDecoration: "none" }}>
+                  <StyledButton>about</StyledButton>
+                </Link>
+              </Grid>
+              <Grid item xs={12} md={1}>
+                <Link to="/works" style={{ textDecoration: "none" }}>
+                  <StyledButton>works</StyledButton>
+                </Link>
+              </Grid>
+              <Grid item xs={12} md={1}>
+                <Link to="/skills" style={{ textDecoration: "none" }}>
+                  <StyledButton>skills</StyledButton>
+                </Link>
+              </Grid>
+              <Grid item xs={12} md={1}>
+                <Link to="/others" style={{ textDecoration: "none" }}>
+                  <StyledButton>others</StyledButton>
+                </Link>
+              </Grid>
             </Grid>
           </Toolbar>
         </AppBar>

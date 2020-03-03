@@ -5,21 +5,38 @@ import {
   CardActionArea,
   CardContent,
   CardMedia,
-  Grid
+  Grid,
+  Typography
 } from "@material-ui/core";
+import styled from "styled-components";
+
+const StyledPadding = styled.div`
+  padding-bottom: 100px;
+`;
+
+const StyledTable = styled.table`
+  padding: 15px;
+`;
+
+const StyledCard = styled(Card)`
+  background: linear-gradient(45deg, #03a9f4 30%, #303f9f 90%);
+  padding: 50px;
+  margin-top: 30px;
+`;
 
 const useStyles = makeStyles({
   root: {
     maxWidth: 345
   },
   media: {
-    height: 140
+    height: 200
   }
 });
 
 export default function MediaCard() {
   const classes = useStyles();
   const title: string = "自己紹介";
+  const description: string = "私についてです";
 
   return (
     <div>
@@ -29,13 +46,13 @@ export default function MediaCard() {
         direction="column"
         alignItems="center"
         justify="center"
-        style={{ marginTop: "15vh" }}
       >
-        <Grid item xs={8}>
+        <Grid item xs={12}>
           <h1>{title}</h1>
         </Grid>
       </Grid>
-      <Card className={classes.root}>
+      {description}
+      <StyledCard className={classes.root}>
         <CardActionArea>
           <CardContent>
             <CardMedia
@@ -45,10 +62,12 @@ export default function MediaCard() {
             />
           </CardContent>
         </CardActionArea>
-        <table>
+        <StyledTable>
           <tr>
             <th>nickname</th>
-            <td>暗号名ポセイドン</td>
+            <td>
+              <Typography>暗号名ポセイドン</Typography>
+            </td>
           </tr>
           <tr>
             <th>GitHub</th>
@@ -70,8 +89,9 @@ export default function MediaCard() {
               </a>
             </td>
           </tr>
-        </table>
-      </Card>
+        </StyledTable>
+      </StyledCard>
+      <StyledPadding></StyledPadding>
     </div>
   );
 }

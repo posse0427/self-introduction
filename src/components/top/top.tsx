@@ -11,7 +11,7 @@ const top: React.FC = () => {
         direction="column"
         alignItems="center"
         justify="center"
-        style={{ minHeight: "50vh" }}
+        style={{ minHeight: "450px" }}
       >
         <Grid item xs={8}>
           <h1>{title}</h1>
