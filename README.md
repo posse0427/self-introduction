@@ -1,4 +1,8 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# ポッセのポートフォリオサイト
+
+## :globe_with_meridians: App URL
+
+### [ブログサイト](https://self-introduction-6ff62.firebaseapp.com/)<br>
 
 ## :house: Development environment
 
@@ -6,7 +10,17 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - TypeScript
 - Material-UI
 - styled-components
+- Firebase
 - VSCode(Visual Studio Code)
+
+## :eyes: App View
+
+<img width="1440" src="https://file4-d.kuku.lu/files/20200303-0835_a6efd3ec6dd2ff4a49e777c8dca3d837.png">
+<img width="1440" src="https://file4-d.kuku.lu/files/20200303-0839_725ed6fe39689568d36d97450da6a6d5.png">
+<img width="1440" src="https://file4-d.kuku.lu/files/20200303-0835_a6efd3ec6dd2ff4a49e777c8dca3d837.png">
+<img width="1440" src="https://file4-d.kuku.lu/files/20200303-0840_ff59adfd0522e4e5b2cb9535f68a64d8.png">
+
+## :boy: Author
 
 ## インストールしたもの
 
