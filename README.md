@@ -20,4 +20,4 @@ npm install --save @material-ui/core @material-ui/styles styled-components<br/>
 npm install --save-dev @types/styled-components<br/>
 npm install axios --save<br/>
 npm install --save react-twitter-widgets<br/>
-npm install --save @material-ui/icons
+npm install --save @material-ui/icons<br/>

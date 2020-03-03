@@ -1,0 +1,17 @@
+[
+  {
+    "title": "MyBlog",
+    "text": "Wagtailの勉強のために作ったブログサイトです。\nまれに更新します。",
+    "url": "https://posseblog.herokuapp.com/"
+  },
+  {
+    "title": "ポートフォリオサイト",
+    "text": "このサイトです。\nいかが…どうでしたか？",
+    "url": ""
+  },
+  {
+    "title": "動画制作",
+    "text": "Youtubeにて、不定期に動画投稿しています。\n人を選ぶ内容ではあるので、気に入ったらチャンネル登録よろしくね♡",
+    "url": "https://www.youtube.com/channel/UCtPnwsb-6cbcW93ac5AlMHg"
+  }
+]

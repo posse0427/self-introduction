@@ -6,7 +6,7 @@ import {
 } from "@material-ui/styles";
 import { ThemeProvider as StyledThemeProvider } from "styled-components";
 import theme from "./Theme";
-import Menu from "./Menu";
+import Menu from "./components/bar/Menu";
 import { BrowserRouter as Router } from "react-router-dom";
 
 const App: React.FC = () => {

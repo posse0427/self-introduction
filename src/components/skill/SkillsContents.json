@@ -1,0 +1,32 @@
+[
+  {
+    "title": "AviUtl",
+    "text": "趣味の動画編集をする際に使用。\nゆっくり実況などを制作する際にはMovieMakerも使用します。",
+    "day": "2019年12月〜"
+  },
+  {
+    "title": "HTML & CSS",
+    "text": "久しく純粋なHTMLとCSSは活用してないが、\nBootstrapなどで触れる機会あり",
+    "day": "2019年2月〜"
+  },
+  {
+    "title": "Git,Github",
+    "text": "主にインターン先でのチーム開発で使用。\n個人開発の際も使用しています。",
+    "day": "2019年6月〜"
+  },
+  {
+    "title": "Typescript",
+    "text": "このポートフォリオの制作で使用しました。",
+    "day": "2020年1月〜"
+  },
+  {
+    "title": "React",
+    "text": "このポートフォリオの制作でTypescriptと共に使用しました。",
+    "day": "2019年8月〜"
+  },
+  {
+    "title": "Python (Django,Wagtail)",
+    "text": "実務にて使用。\n実務では主にDjango、Wagtailを使用しました。",
+    "day": "2019年10月〜"
+  }
+]
